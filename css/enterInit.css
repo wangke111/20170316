@@ -1,0 +1,150 @@
+#enterInit {
+  position: fixed;
+  width: 1160px;
+  height: 360px;
+  border: 1px solid #000000;
+  padding: 44px 50px;
+  top: 80px;
+  left: 0;
+  background: #FFFFFF;
+  display: none; }
+  #enterInit .enterInit-left {
+    width: 300px;
+    height: 360px;
+    border-right: 1px solid #000000;
+    float: left; }
+    #enterInit .enterInit-left span {
+      display: block;
+      width: 200px;
+      height: 50px;
+      color: #000000;
+      font-size: 30px;
+      line-height: 50px; }
+    #enterInit .enterInit-left a {
+      display: flex;
+      width: 200px;
+      height: 50px;
+      background: #000000;
+      color: #FFFFFF;
+      font-size: 30px;
+      line-height: 50px;
+      text-decoration: none;
+      margin-top: 30px; }
+      #enterInit .enterInit-left a b {
+        display: block;
+        width: 50px;
+        height: 50px;
+        color: #FFFFFF;
+        margin-left: 10px;
+        font-weight: bold; }
+    #enterInit .enterInit-left a:hover {
+      background: #FFFFFF;
+      color: #000000;
+      border: 1px solid #000000; }
+      #enterInit .enterInit-left a:hover b {
+        color: #000000; }
+  #enterInit .enterInit-conter {
+    width: 400px;
+    height: 360px;
+    border-right: 1px solid #000000;
+    float: left; }
+    #enterInit .enterInit-conter span {
+      display: block;
+      width: 250px;
+      height: 50px;
+      text-align: center;
+      color: #000000;
+      font-size: 30px;
+      line-height: 50px;
+      margin-left: 20px; }
+    #enterInit .enterInit-conter ul {
+      list-style: none;
+      display: flex;
+      width: 300px;
+      height: 50px;
+      margin-left: 10px;
+      margin-top: 20px; }
+      #enterInit .enterInit-conter ul li {
+        width: 50px;
+        height: 50px;
+        margin: 10px; }
+        #enterInit .enterInit-conter ul li img {
+          width: 50px;
+          height: 50px;
+          border: 1px solid #000000; }
+  #enterInit .enterInit-right {
+    width: 410px;
+    height: 360px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    float: right; }
+    #enterInit .enterInit-right span {
+      display: block;
+      width: 250px;
+      height: 50px;
+      text-align: center;
+      color: #000000;
+      font-size: 30px;
+      line-height: 50px;
+      margin-left: 10px; }
+    #enterInit .enterInit-right input {
+      width: 300px;
+      height: 40px;
+      margin: 8px 30px;
+      font-size: 18px; }
+    #enterInit .enterInit-right input:nth-child(4) {
+      width: 150px; }
+    #enterInit .enterInit-right b {
+      display: block;
+      width: 125px;
+      height: 40px;
+      background: #CCCCCC;
+      position: absolute;
+      left: 205px;
+      top: 178px;
+      text-align: center;
+      line-height: 40px; }
+    #enterInit .enterInit-right u {
+      display: block;
+      margin-left: 250px;
+      width: 80px;
+      text-align: center;
+      height: 20px;
+      color: #000000;
+      text-decoration: underline; }
+    #enterInit .enterInit-right p {
+      display: block;
+      font-size: 12px;
+      margin: 2px 30px; }
+      #enterInit .enterInit-right p a {
+        color: #f00; }
+    #enterInit .enterInit-right strong {
+      display: block;
+      width: 300px;
+      height: 40px;
+      background: #000000;
+      color: #FFFFFF;
+      text-align: center;
+      margin: 10px 30px;
+      line-height: 40px;
+      font-size: 20px;
+      border: 1px solid #000000; }
+    #enterInit .enterInit-right strong:hover {
+      background: #FFFFFF;
+      border: 1px solid #000000;
+      color: #000000; }
+    #enterInit .enterInit-right #chk {
+      width: 20px;
+      height: 20px;
+      margin-left: 30px;
+      margin-top: 0px;
+      border: 1px solid #000000;
+      float: left; }
+    #enterInit .enterInit-right #forget {
+      position: absolute;
+      bottom: 5px;
+      right: 80px;
+      float: left; }
+
+/*# sourceMappingURL=enterInit.css.map */

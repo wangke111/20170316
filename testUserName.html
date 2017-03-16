@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">
+			$(function(){
+		// 		账号验证		
+//				$("#telphone").blur(function(){
+//					$("#userPass").attr("disabled", false);
+//					$.get("testTelphone.php",{"telphone":$("#telphone").val()},function(data){
+//						console.log(data);
+//						if(data.indexOf("1")>-1){
+//							$("#telInfo").html("亲,该用户名已经存在");							
+//						}else{
+//							$("#userPass").attr("disabled", true);
+//						}
+//					});	
+//				});	
+//							
+//			$("#userPass").blur(function(){
+//				$.post("userPass.php",{
+//					"userPass":$("#userPass").val()},function(Data){
+//						console.log(Data);
+//					if (Data.indexOf("1")>-1) {
+//							alert("登陆成功");												
+//					} else{
+//							$("#userInfo").html("密码不匹配");
+//							}
+//					});
+//			});
+//						
+				$("#btn").click(function(){
+					$.post("dl.php",{
+						"telphone":$("#telphone").val(),
+						"userPass":$("#userPass").val()
+									},function(data){
+					console.log(data);
+					if(data.indexOf("1")>-1){
+						alert("登陆成功");
+					}else{
+						alert("登陆失败");
+					}
+					});
+				});
+				
+				});
+		</script>
+
+	<body>
+		<input type="text" id="telphone"  />
+		<input type="password" id="userPass" />
+		<input type="button" id="btn" value="提交"/>
+	</body>
+</html>

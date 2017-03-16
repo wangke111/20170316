@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*#box{
+				width: 500px;
+				height: 500px;
+				border: 1px solid #000000;
+			}*/
+		</style>
+	</head>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	
+	<script>
+		$(function(){
+			
+				$.get("getGoodsList.php",function(data){
+						
+						  console.log(data);
+				});
+//						console.log(data);
+//					//	let dataObj = Data;
+//						let arr = Data;
+//					var htmlStr = "";
+//					for (let i=0;i<arr.length;i++) {
+//					//	let goodsId = arr[i].goodsId,
+//htmlStr+="<dl><dt><img src='"+arr[i].goodsDesc+"'/></dt><dd>"
+//+arr[i].goodsName+"</dd><dd>"+arr[i].goodsPrice+"</dd></dl>";
+//					}
+//					$("#box").append(htmlStr);
+					});
+				
+			
+			
+			
+//				$("#btn1").click(function(){
+//						$.get("addShoppingCart.php",{
+//						"vipName":$("#btn1").val()},function(Data){
+//							console.log(Data);
+//					
+//				});
+//			});
+		
+	//	});
+		
+	</script>
+	
+	<body>
+		<input type="button" id="btn" value="点击" />
+		<input type="text" id="txt" /><br />
+		<input type="button" id="btn1" value="点击" />
+		<input type="text" id="txt1" />
+		<div id="box">
+			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,111 @@
+$width:1160px;
+$height:360px;
+#enrollInit{
+    width: $width;
+    height: $height;
+    border: 1px solid #000000;
+    position: fixed;
+    padding: 44px 50px;
+    top: 80px;
+    left: 0;
+    background: #FFFFFF;
+    display: none;  
+    
+.enrollInitLeft,.enrollInitCenter,{
+    width: 380px;
+    height: $height;
+    display:flex;
+    flex-direction:column;
+    float: left;
+    position: relative;
+    p{
+        width: 100px;
+        margin: 0px 20px;
+        margin-top:10px;
+        font-size: 18px;
+    span{
+         color: #FF0000;
+     }
+     } 
+    input{
+        width: 280px;
+        height: 50px;
+        margin: 10px 20px;
+        font-size: 18px;
+    }
+    input:nth-child(6){
+        width: 140px;
+    }
+    b{
+        display: block;
+        width: 120px;
+        height: 50px;
+        background: #999999;
+        position: absolute;
+        left: 180px;
+        top: 248px;
+        text-align: center;
+        text-decoration: none;
+        color: #FFFFFF;
+        line-height: 50px;
+        font-size: 16px;
+    }
+    a{
+        position: absolute;
+        right:120px;
+        bottom: 20px;
+        color: #000000;
+    }           
+} 
+.enrollInitCenter {
+    float: left;
+}
+.enrollInitRight{
+    float: right;
+    width: 380px;
+    height: $height;
+     p{
+        width: 300px;
+        margin: 30px 50px;
+        margin-top:10px;
+        font-size: 18px;
+        a{
+            color: #FF0000;
+        }
+    span{
+         color: #FF0000;
+     }
+     
+     } 
+     input:nth-child(4){
+         margin: 00px 50px ;
+         margin-bottom: 30px;
+     }
+    #enroll-bth{
+        width: 300px;
+        height: 50px;
+        background: #000000;
+        line-height: 50px;
+        font-size: 20px;
+        display: block;
+        color: #FFFFFF;
+        margin: 30px 50px;
+        text-align: center;
+    }
+    #enroll-bth:hover{
+        background: #FFFFFF;
+        color: #000000;
+        border: 1px solid #000000;
+    }
+}
+
+
+#hint{
+    height: 20px;
+    width: 140px;
+    margin:0px 20px;
+    border:1px solid #000000;
+
+}
+ 
+}

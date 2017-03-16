@@ -1,0 +1,101 @@
+#shopCars {
+  width: 1260px;
+  height: 800px;
+  margin-top: 80px;
+  border: 1px solid #000000; }
+  #shopCars .shopCarsTop {
+    width: 1260px;
+    height: 150px;
+    border: 1px solid #FFFFFF; }
+    #shopCars .shopCarsTop ul {
+      margin: 0 400px; }
+      #shopCars .shopCarsTop ul li {
+        list-style: none;
+        float: left;
+        width: 150px;
+        height: 50px;
+        margin: 20px 0px;
+        line-height: 50px;
+        text-align: center; }
+    #shopCars .shopCarsTop p {
+      width: 600px;
+      height: 50px;
+      margin: 100px 350px;
+      position: relative; }
+      #shopCars .shopCarsTop p span {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid #000000;
+        float: left;
+        margin-left: 120px; }
+      #shopCars .shopCarsTop p .bg {
+        background: #000000; }
+      #shopCars .shopCarsTop p u {
+        display: block;
+        width: 120px;
+        height: 1px;
+        background: #464646;
+        position: absolute;
+        right: 195px;
+        top: 10px; }
+      #shopCars .shopCarsTop p u:nth-child(2) {
+        position: absolute;
+        left: 142px; }
+  #shopCars .shopCarsBottom {
+    width: 1260px;
+    height: 650px; }
+    #shopCars .shopCarsBottom .buy {
+      width: 1260px;
+      height: 650px;
+      float: left;
+      display: none; }
+      #shopCars .shopCarsBottom .buy h1 {
+        width: 300px;
+        margin: 50px 500px; }
+      #shopCars .shopCarsBottom .buy a {
+        display: block;
+        color: #FFFFFF;
+        width: 300px;
+        height: 100px;
+        background: #940000;
+        margin: 20px 480px;
+        font-size: 40px;
+        text-align: center;
+        text-decoration: none;
+        line-height: 100px; }
+    #shopCars .shopCarsBottom .listGoods {
+      width: 1260px;
+      height: 650px;
+      border: 1px solid #FF0000; }
+      #shopCars .shopCarsBottom .listGoods h1 {
+        margin-left: 80px; }
+        #shopCars .shopCarsBottom .listGoods h1 span {
+          color: #FF0000; }
+      #shopCars .shopCarsBottom .listGoods p {
+        width: 1100px;
+        height: 50px;
+        border: 1px solid #000000;
+        font-size: 20px;
+        line-height: 50px;
+        margin-left: 80px; }
+        #shopCars .shopCarsBottom .listGoods p span {
+          color: #FF0000; }
+      #shopCars .shopCarsBottom .listGoods ul li {
+        list-style: none;
+        width: 1260px;
+        height: 150px;
+        border: 1px solid #000000; }
+      #shopCars .shopCarsBottom .listGoods div {
+        width: 1100px;
+        height: 150px;
+        border: 1px solid #000000;
+        margin-left: 80px; }
+        #shopCars .shopCarsBottom .listGoods div p {
+          text-align: center; }
+          #shopCars .shopCarsBottom .listGoods div p img {
+            margin: 20px 20px;
+            border: 1px solid #000000; }
+
+/*# sourceMappingURL=shopCar.css.map */

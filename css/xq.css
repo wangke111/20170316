@@ -1,0 +1,315 @@
+.sizeTable {
+  position: absolute;
+  top: 300px;
+  left: 200px; }
+  .sizeTable img {
+    height: 0px; }
+
+#price {
+  width: 1260px;
+  height: 1000px;
+  padding-top: 80px;
+  margin-top: 130px; }
+  #price .price-left {
+    width: 336px;
+    height: 500px;
+    float: left; }
+    #price .price-left ul {
+      margin-left: 250px;
+      position: absolute; }
+    #price .price-left ul li {
+      list-style: none;
+      margin: 10px 0px;
+      color: #BF6666; }
+    #price .price-left li:hover {
+      color: #FF0000; }
+    #price .price-left .bagShoe {
+      width: 200px;
+      height: 500px;
+      background: #dfe0e2;
+      margin-left: 130px;
+      position: relative;
+      overflow: hidden;
+      display: none;
+      border: 1px solid #000000; }
+      #price .price-left .bagShoe img {
+        position: absolute;
+        top: 0;
+        left: 0; }
+    #price .price-left ._img {
+      display: none; }
+  #price .price-center {
+    width: 600px;
+    height: 1000px;
+    float: left; }
+    #price .price-center .price-center-top {
+      width: 600px;
+      height: 490px; }
+      #price .price-center .price-center-top p {
+        width: 450px;
+        margin: 10px 80px;
+        font-size: 20px; }
+      #price .price-center .price-center-top span {
+        margin-left: 220px;
+        font-size: 20px; }
+      #price .price-center .price-center-top .shoe {
+        width: 500px;
+        height: 350px;
+        margin-top: 60px;
+        margin-left: 50px;
+        position: relative;
+        text-align: center; }
+        #price .price-center .price-center-top .shoe ul li {
+          list-style: none; }
+        #price .price-center .price-center-top .shoe .aa {
+          width: 500px;
+          height: 350px;
+          display: none; }
+        #price .price-center .price-center-top .shoe .show {
+          display: block; }
+        #price .price-center .price-center-top .shoe #small {
+          width: 100px;
+          height: 100px;
+          background: rgba(0, 0, 0, 0.2);
+          position: absolute;
+          left: 0;
+          top: 0;
+          display: none; }
+    #price .price-center .price-center-bottom {
+      width: 600px;
+      height: 500px; }
+      #price .price-center .price-center-bottom #ulImg {
+        list-style: none;
+        width: 600px;
+        height: 100px;
+        display: flex; }
+        #price .price-center .price-center-bottom #ulImg li {
+          text-align: center;
+          width: 100px;
+          height: 100px; }
+        #price .price-center .price-center-bottom #ulImg ._li {
+          border: 1px solid #000000; }
+      #price .price-center .price-center-bottom h3 {
+        margin-top: 50px; }
+      #price .price-center .price-center-bottom .ulTxt {
+        margin-top: 50px;
+        margin-left: 20px; }
+        #price .price-center .price-center-bottom .ulTxt li {
+          margin-top: 3px;
+          color: #999999; }
+        #price .price-center .price-center-bottom .ulTxt li:hover {
+          color: #464646; }
+      #price .price-center .price-center-bottom a {
+        display: block;
+        width: 300px;
+        height: 50px;
+        background: #000000;
+        color: #FFFFFF;
+        line-height: 50px;
+        text-align: center;
+        margin: 100px 130px;
+        text-decoration: none; }
+      #price .price-center .price-center-bottom a:hover {
+        border: 1px solid #000000;
+        background: #FFFFFF;
+        color: #000000; }
+  #price .price-right {
+    width: 230px;
+    height: 500px;
+    float: left; }
+    #price .price-right ul {
+      list-style: none;
+      height: 80px;
+      width: 200px; }
+      #price .price-right ul li {
+        float: left; }
+        #price .price-right ul li img {
+          margin: 10px; }
+      #price .price-right ul li:nth-child(2) {
+        border: 1px solid #000000; }
+    #price .price-right p {
+      margin-top: 5px; }
+    #price .price-right u {
+      display: block;
+      margin-top: 20px; }
+    #price .price-right h3 {
+      margin-top: 20px; }
+    #price .price-right select {
+      width: 50px;
+      height: 20px;
+      border: 1px solid #000000;
+      margin: 10px; }
+    #price .price-right #numCase {
+      margin-left: 95px; }
+    #price .price-right #buy, #price .price-right #addCat {
+      display: block;
+      width: 150px;
+      height: 40px;
+      color: #FFFFFF;
+      text-align: center;
+      line-height: 40px;
+      font-size: 20px;
+      background: #940000;
+      margin: 5px 40px; }
+    #price .price-right #buy:hover {
+      background: #bf6666; }
+    #price .price-right #addCat:hover {
+      background: #bf6666; }
+
+.maybeLike {
+  width: 1260px;
+  height: 500px; }
+  .maybeLike .maybeLikeTop {
+    width: 1260px;
+    height: 120px;
+    position: relative; }
+    .maybeLike .maybeLikeTop span {
+      display: block;
+      font-size: 22px;
+      margin-top: 20px;
+      text-align: center;
+      line-height: 60px; }
+    .maybeLike .maybeLikeTop b {
+      position: absolute;
+      display: block;
+      width: 420px;
+      height: 1px;
+      border-top: 2px solid #999999;
+      top: 30px;
+      left: 70px; }
+    .maybeLike .maybeLikeTop b:nth-child(1) {
+      left: 760px; }
+  .maybeLike .maybeLikeBottom {
+    width: 1260px;
+    height: 380px;
+    position: relative; }
+    .maybeLike .maybeLikeBottom .left-span, .maybeLike .maybeLikeBottom .right-span {
+      position: absolute;
+      display: block;
+      width: 50px;
+      height: 100px;
+      font-size: 100px;
+      text-align: center;
+      line-height: 100px; }
+    .maybeLike .maybeLikeBottom .left-span {
+      top: 130px;
+      left: 70px; }
+    .maybeLike .maybeLikeBottom .right-span {
+      top: 130px;
+      right: 70px; }
+    .maybeLike .maybeLikeBottom .imgList {
+      width: 1000px;
+      height: 370px;
+      position: absolute;
+      left: 130px;
+      top: 0px;
+      overflow: hidden; }
+    .maybeLike .maybeLikeBottom ul {
+      width: 9999px;
+      margin-left: 20px;
+      position: absolute; }
+    .maybeLike .maybeLikeBottom ul li {
+      list-style: none;
+      width: 230px;
+      height: 350px;
+      border-left: 3px solid #FFFFFF;
+      border-right: 3px solid #FFFFFF;
+      float: left;
+      margin: 4px;
+      text-align: center; }
+      .maybeLike .maybeLikeBottom ul li span {
+        display: block;
+        margin-top: 20px; }
+    .maybeLike .maybeLikeBottom li:hover {
+      border: 3px solid #000000; }
+
+.lately {
+  width: 1260px;
+  height: 500px; }
+  .lately .latelyTop {
+    width: 1260px;
+    height: 120px;
+    position: relative; }
+    .lately .latelyTop span {
+      display: block;
+      font-size: 22px;
+      margin-top: 20px;
+      text-align: center;
+      line-height: 60px; }
+    .lately .latelyTop b {
+      position: absolute;
+      display: block;
+      width: 420px;
+      height: 1px;
+      border-top: 2px solid #999999;
+      top: 30px;
+      left: 70px; }
+    .lately .latelyTop b:nth-child(1) {
+      left: 760px; }
+  .lately .latelyBottom {
+    width: 1260px; }
+    .lately .latelyBottom ul {
+      margin-left: 150px; }
+    .lately .latelyBottom ul li {
+      list-style: none;
+      width: 230px;
+      height: 350px;
+      border-left: 3px solid #FFFFFF;
+      border-right: 3px solid #FFFFFF;
+      float: left;
+      margin: 4px;
+      text-align: center; }
+      .lately .latelyBottom ul li span {
+        display: block;
+        margin-top: 20px; }
+    .lately .latelyBottom li:hover {
+      border: 3px solid #000000; }
+
+#foot3 {
+  width: 1260px;
+  height: 685px; }
+  #foot3 .foot3-center {
+    width: 1050px;
+    height: 600px;
+    border-top: 1px solid #000000;
+    margin: 90px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    #foot3 .foot3-center dl {
+      text-align: center;
+      width: 220px;
+      height: 280px;
+      color: #464646;
+      margin: 10px; }
+      #foot3 .foot3-center dl dt {
+        font-weight: bold;
+        margin: 20px; }
+      #foot3 .foot3-center dl dd {
+        margin: 2px; }
+  #foot3 dl dd:hover {
+    color: #CCCCCC; }
+  #foot3 dl dt:hover {
+    color: #CCCCCC; }
+
+#footer {
+  width: 1260px;
+  height: 140px;
+  background: #000000;
+  border: 1px solid #000000; }
+  #footer ul {
+    margin: 20px 280px;
+    list-style: none;
+    display: flex; }
+    #footer ul li {
+      color: #FFFFFF;
+      width: 130px;
+      text-align: center;
+      margin-left: 20px; }
+  #footer img {
+    margin: 10px 500px; }
+  #footer .footer-bottom {
+    color: #FFFFFF;
+    margin: 10px 300px; }
+
+/*# sourceMappingURL=xq.css.map */

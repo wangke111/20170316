@@ -1,0 +1,88 @@
+#enrollInit {
+  width: 1160px;
+  height: 360px;
+  border: 1px solid #000000;
+  position: fixed;
+  padding: 44px 50px;
+  top: 80px;
+  left: 0;
+  background: #FFFFFF;
+  display: none; }
+  #enrollInit .enrollInitLeft, #enrollInit .enrollInitCenter {
+    width: 380px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    position: relative; }
+    #enrollInit .enrollInitLeft p, #enrollInit .enrollInitCenter p {
+      width: 100px;
+      margin: 0px 20px;
+      margin-top: 10px;
+      font-size: 18px; }
+      #enrollInit .enrollInitLeft p span, #enrollInit .enrollInitCenter p span {
+        color: #FF0000; }
+    #enrollInit .enrollInitLeft input, #enrollInit .enrollInitCenter input {
+      width: 280px;
+      height: 50px;
+      margin: 10px 20px;
+      font-size: 18px; }
+    #enrollInit .enrollInitLeft input:nth-child(6), #enrollInit .enrollInitCenter input:nth-child(6) {
+      width: 140px; }
+    #enrollInit .enrollInitLeft b, #enrollInit .enrollInitCenter b {
+      display: block;
+      width: 120px;
+      height: 50px;
+      background: #999999;
+      position: absolute;
+      left: 180px;
+      top: 248px;
+      text-align: center;
+      text-decoration: none;
+      color: #FFFFFF;
+      line-height: 50px;
+      font-size: 16px; }
+    #enrollInit .enrollInitLeft a, #enrollInit .enrollInitCenter a {
+      position: absolute;
+      right: 120px;
+      bottom: 20px;
+      color: #000000; }
+  #enrollInit .enrollInitCenter {
+    float: left; }
+  #enrollInit .enrollInitRight {
+    float: right;
+    width: 380px;
+    height: 360px; }
+    #enrollInit .enrollInitRight p {
+      width: 300px;
+      margin: 30px 50px;
+      margin-top: 10px;
+      font-size: 18px; }
+      #enrollInit .enrollInitRight p a {
+        color: #FF0000; }
+      #enrollInit .enrollInitRight p span {
+        color: #FF0000; }
+    #enrollInit .enrollInitRight input:nth-child(4) {
+      margin: 0px 50px;
+      margin-bottom: 30px; }
+    #enrollInit .enrollInitRight #enroll-bth {
+      width: 300px;
+      height: 50px;
+      background: #000000;
+      line-height: 50px;
+      font-size: 20px;
+      display: block;
+      color: #FFFFFF;
+      margin: 30px 50px;
+      text-align: center; }
+    #enrollInit .enrollInitRight #enroll-bth:hover {
+      background: #FFFFFF;
+      color: #000000;
+      border: 1px solid #000000; }
+  #enrollInit #hint {
+    height: 20px;
+    width: 140px;
+    margin: 0px 20px;
+    border: 1px solid #000000; }
+
+/*# sourceMappingURL=enrollInit.css.map */
